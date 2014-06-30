@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Just for Fun</string>
+    <string name="hello_world">Hello! Welcome to Just For Fun! Choose your game below</string>
+    <string name="action_settings">Settings</string>
+    <string name="UpTo24">UpTo24</string>
+
+</resources>

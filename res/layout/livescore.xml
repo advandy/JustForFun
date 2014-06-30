@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:text="S1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/score1"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/p1"
+        android:layout_toRightOf="@+id/p1"
+        android:text="6 6 6 6 5"
+        android:textSize="12sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/g1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/score1"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/status"
+        android:layout_toRightOf="@+id/score1"
+        android:text="(40)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/g2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/score2"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/score2"
+        android:layout_toRightOf="@+id/score2"
+        android:text="(0)"
+        android:textSize="12sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/separator"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/p1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/status"
+        android:background="#D3D3D3"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/separator"
+        android:layout_toRightOf="@+id/status"
+        android:text="Roger Federer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/separator"
+        android:layout_alignBottom="@+id/separator"
+        android:layout_toLeftOf="@+id/score2"
+        android:text="Rafael Nadal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/score2"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/status"
+        android:layout_toLeftOf="@+id/g1"
+        android:text="0 0 0 0 0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/g1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/serve1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/status"
+        android:layout_toLeftOf="@+id/separator" />
+
+    <ImageView
+        android:id="@+id/serve2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status"
+        android:layout_toLeftOf="@+id/serve1" />
+
+</RelativeLayout>
