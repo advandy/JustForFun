@@ -38,7 +38,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-//this is just for testing githubs
+
 public class TennisNews extends Activity {
 
 	ArrayList<String>headlines = new ArrayList<String>();
